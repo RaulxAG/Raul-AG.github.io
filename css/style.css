@@ -1,0 +1,125 @@
+/* Hoja de estilos para Restaurante El Centollo*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------------------------- cabecera */
+#cabecera img{
+  width: 120px;
+}
+#cabecera{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cabecera h1 a{
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}
+
+/*---------------------------------------- menu */
+#menu{
+  background-color: #0a0a0a;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 18px; 
+  height: 60px; 
+  display: flex;
+  justify-content: center;
+}
+
+#menu ul{
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+  gap: 60px;
+}
+
+#menu ul li:hover{
+  background-color: rgb(86, 123, 136);
+}
+
+#menu ul li{
+  display: flex;
+}
+
+#menu ul li a{
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 60px;
+  text-decoration: none;
+  color: rgb(189, 184, 184);
+}
+
+/*---------------------------------------- cabecera */
+.carta{
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.carta-1,.carta-2,.carta-3,.carta-4{
+  margin-top: 10px;
+  height: 250px;
+  width: 230px;
+  background-color: #d4d3d3 ;
+  border-right: #929292 5px;
+  border-bottom: #929292 6px;
+  border-top: 0px;
+  border-left: 0px;
+  border-style: solid;
+}
+
+.carta-1 div,.carta-2 div,.carta-3 div,.carta-4 div{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 230px;
+  height: 90px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.carta-1 div img,.carta-2 div img,.carta-3 div img,.carta-4 div img{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.carta-1 div h4,.carta-2 div h4,.carta-3 div h4,.carta-4 div h4{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#platos{
+  display: block;
+  clear: both;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+}
+
+#platos p{
+  font-weight: bolder;
+  margin-top: 4px;
+}
+
+#platos p b{
+  font-size: 26px;
+  padding-left: 60px;
+}
